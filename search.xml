@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/05/02/00-40-41/</url>
+    <content><![CDATA[<h3 id="测试目录"><a href="#测试目录" class="headerlink" title="测试目录"></a>测试目录</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Welcome to [Hexo](https://hexo.io/)! </span><br><span class="line">This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. </span><br><span class="line">If you get any problems when using Hexo, you can find the answer in </span><br><span class="line">[troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).</span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the anexo, you can find the anexo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the anexo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the an</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">exo, you can find the an</span><br><span class="line">exo, you can find the anexo, you can find the an</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="测试目录23"><a href="#测试目录23" class="headerlink" title="测试目录23"></a>测试目录23</h3><h3 id="测试目录12321"><a href="#测试目录12321" class="headerlink" title="测试目录12321"></a>测试目录12321</h3>]]></content>
+      <categories>
+        <category>web</category>
+      </categories>
+      <tags>
+        <tag>入门</tag>
+        <tag>基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>js入门基础</title>
+    <url>/2023/05/03/00-44-27/</url>
+    <content><![CDATA[<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><p>基本数据类型</p>
+<blockquote>
+<p>number, string, boolean, null, undefined, symbol</p>
+</blockquote>
+<p>引用数据类型</p>
+<blockquote>
+<p>object 包括 子类型和包装类型</p>
+<p>子类型有 Function, Array, Date, RegExp</p>
+<p>包装类型有 Number, Boolean, String</p>
+</blockquote>
+<h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><blockquote>
+<p>var, let, const</p>
+</blockquote>
+<p>var, let, const有什么区别?</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">var在全局作用域声明的变量会挂载在window对象上</span><br><span class="line">let没有变量提升,只在当前作用域有效</span><br><span class="line">const有变量提升,只在当前作用域有效,</span><br><span class="line">	用来申明常量, 必须初始化值,常量值不能修改,,但对象的值可以修改,不能修改指针(改变引用值的地址)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h3><blockquote>
+<p>参考MDN</p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators">表达式和运算符 - JavaScript | MDN (mozilla.org)</a></p>
+</blockquote>
+<p>判断是否相等?</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">===(严格相等)和 ==(相等)区别在于 === 不会进行类型转换再比较,推荐使用 ===</span><br><span class="line">obj === null; //false</span><br><span class="line">0 === false ; //false</span><br><span class="line">&quot;&quot; === false; //false</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="分支语句"><a href="#分支语句" class="headerlink" title="分支语句"></a>分支语句</h2><blockquote>
+<p>if…else</p>
+<p>switch…case</p>
+</blockquote>
+<h2 id="循环语句"><a href="#循环语句" class="headerlink" title="循环语句"></a>循环语句</h2><blockquote>
+<p>for…in</p>
+<p>for…of</p>
+</blockquote>
+<p>for…in 和 for..on有什么区别?</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">for in用来遍历对象的索引(index)</span><br><span class="line">for of用来遍历数组的值(value)</span><br></pre></td></tr></table></figure>
+
+<h3 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h3><blockquote>
+<p>内部函数引用外部函数的变量</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">示例<span class="number">1</span>:</span><br><span class="line"><span class="keyword">const</span> add = (<span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">let</span> counter = <span class="number">0</span>; <span class="comment">// 私有变量</span></span><br><span class="line">  <span class="keyword">return</span> <span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> counter += <span class="number">1</span>; <span class="comment">// 箭头函数可以访问外部变量</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;)();</span><br><span class="line">使用立即执行函数(自调用函数)创建一个新的作用域，避免变量污染</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h2><p>创建对象类(推荐)</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">person</span>&#123;</span><br><span class="line">    name;</span><br><span class="line">    age;</span><br><span class="line">    gender;</span><br><span class="line">    interests;</span><br><span class="line">    <span class="title function_">constructor</span>(<span class="params">name,age,gender,interests</span>)&#123;</span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">name</span> = name;</span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">age</span> = age;</span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">gender</span> = gender;</span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">interests</span> = interests;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// name = [&#x27;Bob&#x27;, &#x27;Smith&#x27;];</span></span><br><span class="line">    <span class="comment">// age = 32;</span></span><br><span class="line">    <span class="comment">// gender = &#x27;male&#x27;;</span></span><br><span class="line">    <span class="comment">// interests = [&#x27;music&#x27;, &#x27;skiing&#x27;];</span></span><br><span class="line"></span><br><span class="line">    <span class="title function_">bio</span>(<span class="params">params</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">this</span>.<span class="property">name</span>[<span class="number">0</span>] + <span class="string">&#x27; &#x27;</span> + <span class="variable language_">this</span>.<span class="property">name</span>[<span class="number">1</span>] + <span class="string">&#x27; is &#x27;</span> + <span class="variable language_">this</span>.<span class="property">age</span> + <span class="string">&#x27; years old. He likes &#x27;</span> + <span class="variable language_">this</span>.<span class="property">interests</span>[<span class="number">0</span>] + <span class="string">&#x27; and &#x27;</span> + <span class="variable language_">this</span>.<span class="property">interests</span>[<span class="number">1</span>] + <span class="string">&#x27;.&#x27;</span>);</span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="title function_">greeting</span>(<span class="params"></span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&#x27;Hi! I\&#x27;m &#x27;</span> + <span class="variable language_">this</span>.<span class="property">name</span>[<span class="number">0</span>] + <span class="string">&#x27;.&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> p = <span class="keyword">new</span> <span class="title function_">person</span>( [<span class="string">&#x27;Bob&#x27;</span>, <span class="string">&#x27;Smith&#x27;</span>],<span class="number">32</span>,<span class="string">&#x27;male&#x27;</span>,[<span class="string">&#x27;music&#x27;</span>, <span class="string">&#x27;skiing&#x27;</span>])</span><br><span class="line">p.<span class="title function_">greeting</span>();</span><br></pre></td></tr></table></figure>
+
+<h2 id="常用方法"><a href="#常用方法" class="headerlink" title="常用方法"></a>常用方法</h2><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String">String - JavaScript | MDN (mozilla.org)</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Number">Number - JavaScript | MDN (mozilla.org)</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object">内置对象方法 - JavaScript | MDN (mozilla.org)</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array">Array - JavaScript | MDN (mozilla.org)</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date">Date - JavaScript | MDN (mozilla.org)</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise - JavaScript | MDN (mozilla.org)</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Map">Map - JavaScript | MDN (mozilla.org)</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math">Math - JavaScript | MDN (mozilla.org)</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Proxy">Proxy - JavaScript | MDN (mozilla.org)</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/RegExp">RegExp(正则表达式) - JavaScript | MDN (mozilla.org)</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer">ArrayBuffer - JavaScript | MDN (mozilla.org)</a></p>
+<h3 id="promise"><a href="#promise" class="headerlink" title="promise"></a>promise</h3><blockquote>
+<p>promise出现是为了解决嵌套回调问题</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">简单示例:</span><br><span class="line"><span class="keyword">const</span> <span class="title function_">newPromise</span> = (<span class="params"></span>) =&gt;&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">resolve,resject</span>) =&gt;</span> &#123;</span><br><span class="line">        <span class="title function_">resolve</span>(<span class="string">&quot;success&quot;</span>)</span><br><span class="line">    &#125;).<span class="title function_">then</span>(<span class="function">(<span class="params">res</span>)=&gt;</span>&#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(res);</span><br><span class="line">    &#125;).<span class="title function_">catch</span>(<span class="function">(<span class="params">err</span>)=&gt;</span>&#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(err);</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="title function_">newPromise</span>());</span><br></pre></td></tr></table></figure>
+
+<p>宏任务（macrotask）和微任务（microtask） ?</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">都是指待执行的任务，它们之间的区别在于它们的执行顺序和触发时机</span><br><span class="line"></span><br><span class="line">宏任务通常包括整体代码中的任务、setTimeout、setInterval、requestAnimationFrame、UI 事件以及 I/O 操作等。当执行宏任务时，JavaScript 引擎会从宏任务队列中取出第一个宏任务执行，执行完毕后再执行下一个宏任务</span><br><span class="line"></span><br><span class="line">微任务是在当前宏任务执行完成后，立即执行的任务。 Promise.then()、Promise.catch(), Object.observe(), MutationObserver, process.nextTick (Node.js环境下)等 它们也被称为 jobs</span><br><span class="line"></span><br><span class="line">重点: 当宏任务和微任务同时存在时，它们的执行顺序如下：</span><br><span class="line">首先执行同步任务，执行完同步任务后会先执行所有微任务，直到微任务队列为空。</span><br><span class="line">然后执行宏任务队列中的第一个宏任务，执行完宏任务后再执行所有微任务，依此类推。</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">示例<span class="number">1</span>:</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;1&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">setTimeout</span>(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;2&#x27;</span>);</span><br><span class="line">  <span class="title class_">Promise</span>.<span class="title function_">resolve</span>().<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;3&#x27;</span>);</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;, <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line"><span class="title class_">Promise</span>.<span class="title function_">resolve</span>().<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;4&#x27;</span>);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;5&#x27;</span>);</span><br><span class="line"></span><br><span class="line">输出为<span class="number">1</span>,<span class="number">5</span>,<span class="number">4</span>,<span class="number">2</span>,<span class="number">3</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>web</category>
+      </categories>
+      <tags>
+        <tag>js基础</tag>
+      </tags>
+  </entry>
+</search>
