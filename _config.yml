@@ -3,18 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Eric.Chou Blog
+subtitle: '分享知识的blog, 知世就是力量'
+description: 'freedom and responsibility'
 keywords:
 author: Eric.Chou.Carl
-language: en
-timezone: ''
+language: zh-CN # en
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://ericchoucarl.github.io/
+root: /
+permalink: :year/:month/:day/:hour-:minute-:second/  #:year/:month/:day/:title/  w网站链接格式
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -94,10 +95,20 @@ include:
 exclude:
 ignore:
 
+# 统计字数
+symbols_count_time:
+  symbols: true
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
+
+# 搜索
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
